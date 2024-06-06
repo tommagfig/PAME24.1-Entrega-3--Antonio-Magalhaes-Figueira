@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 function Header() {
     return (
         <header className="bg-yellow-400 p-4">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center">
-                    <img src="Imagens/image.png" alt="Logo" className="h-10 w-10 mr-4" />
-                    <h1 className="text-purple-700 text-xl font-bold">Minha Rede Social</h1>
+                    <img src="./image.png" alt="Logo" className="h-10 w-10 mr-4" />
+                    <h1 className="text-purple-700 text-xl font-bold">WaveConnect</h1>
                 </div>
                 <div className="flex items-center space-x-4">
                     <input
